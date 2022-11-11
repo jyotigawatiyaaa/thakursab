@@ -1,0 +1,36 @@
+name: fdis_mobile
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: 4.3.8
+  url_launcher: ^6.0.12
+  get_storage: ^2.0.3
+  http: ^0.13.4
+  syncfusion_flutter_signaturepad: ^19.4.41
+  open_file: ^3.2.1
+  universal_html: ^2.0.8
+  file_picker: ^4.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/Icons/
+    - assets/Images/
+
